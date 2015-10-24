@@ -165,7 +165,6 @@
 		D897B37F1BDBE3B4006C60B0 /* Reader-Print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624501444B09F006B6B11 /* Reader-Print@2x.png */; };
 		D897B3801BDBE3B4006C60B0 /* Reader-Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624511444B09F006B6B11 /* Reader-Thumbs.png */; };
 		D897B3811BDBE3B4006C60B0 /* Reader-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624521444B09F006B6B11 /* Reader-Thumbs@2x.png */; };
-		D897B3821BDBE43B006C60B0 /* ViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ViewerAppDelegate.m */; };
 		D897B3831BDBE43B006C60B0 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451258FB142B8871009BCAF5 /* LibraryViewController.m */; };
 		D897B3841BDBE43B006C60B0 /* LibraryDirectoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451258F3142B8871009BCAF5 /* LibraryDirectoryView.m */; };
 		D897B3851BDBE43B006C60B0 /* LibraryDocumentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451258F7142B8871009BCAF5 /* LibraryDocumentsView.m */; };
@@ -197,37 +196,36 @@
 		D897B39F1BDBE569006C60B0 /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A18142A580F00F15953 /* ReaderThumbView.m */; };
 		D897B3A01BDBE569006C60B0 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A20142A580F00F15953 /* UIXToolbarView.m */; };
 		D897B3A11BDBE569006C60B0 /* Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28193054112F811F00ECF9B4 /* Reader.xcdatamodeld */; };
-		D897B3A21BDBE791006C60B0 /* ViewerAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3623240D0F684500981E51 /* ViewerAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3A31BDBE791006C60B0 /* LibraryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258FA142B8871009BCAF5 /* LibraryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3A41BDBE791006C60B0 /* LibraryDirectoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258F2142B8871009BCAF5 /* LibraryDirectoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3A51BDBE791006C60B0 /* LibraryDocumentsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258F6142B8871009BCAF5 /* LibraryDocumentsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3A61BDBE791006C60B0 /* FoldersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258EE142B8871009BCAF5 /* FoldersViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3A71BDBE791006C60B0 /* HelpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E2B4E7144CB3A500B497D0 /* HelpViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3A81BDBE791006C60B0 /* DocumentFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4521C5AB1360DCC300DD4856 /* DocumentFolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3A91BDBE791006C60B0 /* ReaderDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 4521C5AD1360DCC300DD4856 /* ReaderDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3AA1BDBE791006C60B0 /* DocumentsUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45125904142B88AF009BCAF5 /* DocumentsUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3AB1BDBE791006C60B0 /* CoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4567BADE1347751600311D51 /* CoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3AC1BDBE791006C60B0 /* DirectoryWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 452825211434FF9F00744EB2 /* DirectoryWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3AD1BDBE791006C60B0 /* UIXTextEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45125906142B88AF009BCAF5 /* UIXTextEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3AE1BDBE791006C60B0 /* ReaderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FB142A580F00F15953 /* ReaderConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3AF1BDBE791006C60B0 /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A19142A580F00F15953 /* ReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B01BDBE791006C60B0 /* ReaderMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A07142A580F00F15953 /* ReaderMainToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B11BDBE791006C60B0 /* ReaderMainPagebar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A05142A580F00F15953 /* ReaderMainPagebar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B21BDBE791006C60B0 /* ReaderContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A01142A580F00F15953 /* ReaderContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B31BDBE791006C60B0 /* ReaderContentPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FD142A580F00F15953 /* ReaderContentPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B41BDBE791006C60B0 /* ReaderContentTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FF142A580F00F15953 /* ReaderContentTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B51BDBE791006C60B0 /* ThumbsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1D142A580F00F15953 /* ThumbsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B61BDBE791006C60B0 /* ThumbsMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1B142A580F00F15953 /* ThumbsMainToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B71BDBE791006C60B0 /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39F9142A580F00F15953 /* CGPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B81BDBE791006C60B0 /* ReaderDocumentOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 45550E4D1612086C003F2FAA /* ReaderDocumentOutline.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3B91BDBE791006C60B0 /* ReaderThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0B142A580F00F15953 /* ReaderThumbCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3BA1BDBE791006C60B0 /* ReaderThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A13142A580F00F15953 /* ReaderThumbRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3BB1BDBE791006C60B0 /* ReaderThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0F142A580F00F15953 /* ReaderThumbQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3BC1BDBE791006C60B0 /* ReaderThumbFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0D142A580F00F15953 /* ReaderThumbFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3BD1BDBE792006C60B0 /* ReaderThumbRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A11142A580F00F15953 /* ReaderThumbRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3BE1BDBE792006C60B0 /* ReaderThumbsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A15142A580F00F15953 /* ReaderThumbsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3BF1BDBE792006C60B0 /* ReaderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A17142A580F00F15953 /* ReaderThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D897B3C01BDBE792006C60B0 /* UIXToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1F142A580F00F15953 /* UIXToolbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C11BDBEB01006C60B0 /* LibraryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258FA142B8871009BCAF5 /* LibraryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C21BDBEB01006C60B0 /* LibraryDirectoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258F2142B8871009BCAF5 /* LibraryDirectoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C31BDBEB02006C60B0 /* LibraryDocumentsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258F6142B8871009BCAF5 /* LibraryDocumentsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C41BDBEB02006C60B0 /* FoldersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258EE142B8871009BCAF5 /* FoldersViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C51BDBEB02006C60B0 /* HelpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E2B4E7144CB3A500B497D0 /* HelpViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C61BDBEB02006C60B0 /* DocumentFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4521C5AB1360DCC300DD4856 /* DocumentFolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C71BDBEB02006C60B0 /* ReaderDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 4521C5AD1360DCC300DD4856 /* ReaderDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C81BDBEB02006C60B0 /* DocumentsUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45125904142B88AF009BCAF5 /* DocumentsUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3C91BDBEB02006C60B0 /* CoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4567BADE1347751600311D51 /* CoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3CA1BDBEB02006C60B0 /* DirectoryWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 452825211434FF9F00744EB2 /* DirectoryWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3CB1BDBEB02006C60B0 /* UIXTextEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45125906142B88AF009BCAF5 /* UIXTextEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3CC1BDBEB02006C60B0 /* ReaderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FB142A580F00F15953 /* ReaderConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3CD1BDBEB02006C60B0 /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A19142A580F00F15953 /* ReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3CE1BDBEB02006C60B0 /* ReaderMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A07142A580F00F15953 /* ReaderMainToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3CF1BDBEB02006C60B0 /* ReaderMainPagebar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A05142A580F00F15953 /* ReaderMainPagebar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D01BDBEB02006C60B0 /* ReaderContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A01142A580F00F15953 /* ReaderContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D11BDBEB02006C60B0 /* ReaderContentPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FD142A580F00F15953 /* ReaderContentPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D21BDBEB02006C60B0 /* ReaderContentTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FF142A580F00F15953 /* ReaderContentTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D31BDBEB02006C60B0 /* ThumbsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1D142A580F00F15953 /* ThumbsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D41BDBEB02006C60B0 /* ThumbsMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1B142A580F00F15953 /* ThumbsMainToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D51BDBEB02006C60B0 /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39F9142A580F00F15953 /* CGPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D61BDBEB02006C60B0 /* ReaderDocumentOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 45550E4D1612086C003F2FAA /* ReaderDocumentOutline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D71BDBEB02006C60B0 /* ReaderThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0B142A580F00F15953 /* ReaderThumbCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D81BDBEB02006C60B0 /* ReaderThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A13142A580F00F15953 /* ReaderThumbRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3D91BDBEB02006C60B0 /* ReaderThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0F142A580F00F15953 /* ReaderThumbQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3DA1BDBEB02006C60B0 /* ReaderThumbFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0D142A580F00F15953 /* ReaderThumbFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3DB1BDBEB02006C60B0 /* ReaderThumbRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A11142A580F00F15953 /* ReaderThumbRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3DC1BDBEB02006C60B0 /* ReaderThumbsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A15142A580F00F15953 /* ReaderThumbsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3DD1BDBEB02006C60B0 /* ReaderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A17142A580F00F15953 /* ReaderThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D897B3DE1BDBEB02006C60B0 /* UIXToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1F142A580F00F15953 /* UIXToolbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -678,37 +676,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D897B2B31BDBD889006C60B0 /* ViewerFramework.h in Headers */,
-				D897B3A21BDBE791006C60B0 /* ViewerAppDelegate.h in Headers */,
-				D897B3A31BDBE791006C60B0 /* LibraryViewController.h in Headers */,
-				D897B3A41BDBE791006C60B0 /* LibraryDirectoryView.h in Headers */,
-				D897B3A51BDBE791006C60B0 /* LibraryDocumentsView.h in Headers */,
-				D897B3A61BDBE791006C60B0 /* FoldersViewController.h in Headers */,
-				D897B3A71BDBE791006C60B0 /* HelpViewController.h in Headers */,
-				D897B3A81BDBE791006C60B0 /* DocumentFolder.h in Headers */,
-				D897B3A91BDBE791006C60B0 /* ReaderDocument.h in Headers */,
-				D897B3AA1BDBE791006C60B0 /* DocumentsUpdate.h in Headers */,
-				D897B3AB1BDBE791006C60B0 /* CoreDataManager.h in Headers */,
-				D897B3AC1BDBE791006C60B0 /* DirectoryWatcher.h in Headers */,
-				D897B3AD1BDBE791006C60B0 /* UIXTextEntry.h in Headers */,
-				D897B3AE1BDBE791006C60B0 /* ReaderConstants.h in Headers */,
-				D897B3AF1BDBE791006C60B0 /* ReaderViewController.h in Headers */,
-				D897B3B01BDBE791006C60B0 /* ReaderMainToolbar.h in Headers */,
-				D897B3B11BDBE791006C60B0 /* ReaderMainPagebar.h in Headers */,
-				D897B3B21BDBE791006C60B0 /* ReaderContentView.h in Headers */,
-				D897B3B31BDBE791006C60B0 /* ReaderContentPage.h in Headers */,
-				D897B3B41BDBE791006C60B0 /* ReaderContentTile.h in Headers */,
-				D897B3B51BDBE791006C60B0 /* ThumbsViewController.h in Headers */,
-				D897B3B61BDBE791006C60B0 /* ThumbsMainToolbar.h in Headers */,
-				D897B3B71BDBE791006C60B0 /* CGPDFDocument.h in Headers */,
-				D897B3B81BDBE791006C60B0 /* ReaderDocumentOutline.h in Headers */,
-				D897B3B91BDBE791006C60B0 /* ReaderThumbCache.h in Headers */,
-				D897B3BA1BDBE791006C60B0 /* ReaderThumbRequest.h in Headers */,
-				D897B3BB1BDBE791006C60B0 /* ReaderThumbQueue.h in Headers */,
-				D897B3BC1BDBE791006C60B0 /* ReaderThumbFetch.h in Headers */,
-				D897B3BD1BDBE792006C60B0 /* ReaderThumbRender.h in Headers */,
-				D897B3BE1BDBE792006C60B0 /* ReaderThumbsView.h in Headers */,
-				D897B3BF1BDBE792006C60B0 /* ReaderThumbView.h in Headers */,
-				D897B3C01BDBE792006C60B0 /* UIXToolbarView.h in Headers */,
+				D897B3C11BDBEB01006C60B0 /* LibraryViewController.h in Headers */,
+				D897B3C21BDBEB01006C60B0 /* LibraryDirectoryView.h in Headers */,
+				D897B3C31BDBEB02006C60B0 /* LibraryDocumentsView.h in Headers */,
+				D897B3C41BDBEB02006C60B0 /* FoldersViewController.h in Headers */,
+				D897B3C51BDBEB02006C60B0 /* HelpViewController.h in Headers */,
+				D897B3C61BDBEB02006C60B0 /* DocumentFolder.h in Headers */,
+				D897B3C71BDBEB02006C60B0 /* ReaderDocument.h in Headers */,
+				D897B3C81BDBEB02006C60B0 /* DocumentsUpdate.h in Headers */,
+				D897B3C91BDBEB02006C60B0 /* CoreDataManager.h in Headers */,
+				D897B3CA1BDBEB02006C60B0 /* DirectoryWatcher.h in Headers */,
+				D897B3CB1BDBEB02006C60B0 /* UIXTextEntry.h in Headers */,
+				D897B3CC1BDBEB02006C60B0 /* ReaderConstants.h in Headers */,
+				D897B3CD1BDBEB02006C60B0 /* ReaderViewController.h in Headers */,
+				D897B3CE1BDBEB02006C60B0 /* ReaderMainToolbar.h in Headers */,
+				D897B3CF1BDBEB02006C60B0 /* ReaderMainPagebar.h in Headers */,
+				D897B3D01BDBEB02006C60B0 /* ReaderContentView.h in Headers */,
+				D897B3D11BDBEB02006C60B0 /* ReaderContentPage.h in Headers */,
+				D897B3D21BDBEB02006C60B0 /* ReaderContentTile.h in Headers */,
+				D897B3D31BDBEB02006C60B0 /* ThumbsViewController.h in Headers */,
+				D897B3D41BDBEB02006C60B0 /* ThumbsMainToolbar.h in Headers */,
+				D897B3D51BDBEB02006C60B0 /* CGPDFDocument.h in Headers */,
+				D897B3D61BDBEB02006C60B0 /* ReaderDocumentOutline.h in Headers */,
+				D897B3D71BDBEB02006C60B0 /* ReaderThumbCache.h in Headers */,
+				D897B3D81BDBEB02006C60B0 /* ReaderThumbRequest.h in Headers */,
+				D897B3D91BDBEB02006C60B0 /* ReaderThumbQueue.h in Headers */,
+				D897B3DA1BDBEB02006C60B0 /* ReaderThumbFetch.h in Headers */,
+				D897B3DB1BDBEB02006C60B0 /* ReaderThumbRender.h in Headers */,
+				D897B3DC1BDBEB02006C60B0 /* ReaderThumbsView.h in Headers */,
+				D897B3DD1BDBEB02006C60B0 /* ReaderThumbView.h in Headers */,
+				D897B3DE1BDBEB02006C60B0 /* UIXToolbarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -980,7 +977,6 @@
 				D897B3891BDBE445006C60B0 /* ReaderDocument.m in Sources */,
 				D897B38A1BDBE445006C60B0 /* DocumentsUpdate.m in Sources */,
 				D897B38B1BDBE445006C60B0 /* CoreDataManager.m in Sources */,
-				D897B3821BDBE43B006C60B0 /* ViewerAppDelegate.m in Sources */,
 				D897B3831BDBE43B006C60B0 /* LibraryViewController.m in Sources */,
 				D897B3841BDBE43B006C60B0 /* LibraryDirectoryView.m in Sources */,
 				D897B3851BDBE43B006C60B0 /* LibraryDocumentsView.m in Sources */,
