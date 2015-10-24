@@ -104,17 +104,131 @@
 		D897B2B31BDBD889006C60B0 /* ViewerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D897B2B21BDBD889006C60B0 /* ViewerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D897B2B71BDBD889006C60B0 /* ViewerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D897B2B01BDBD889006C60B0 /* ViewerFramework.framework */; };
 		D897B2B81BDBD889006C60B0 /* ViewerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D897B2B01BDBD889006C60B0 /* ViewerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D897B3441BDBE2F1006C60B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		D897B3451BDBE2F1006C60B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		D897B3461BDBE2F1006C60B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		D897B3471BDBE2F1006C60B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4584F5DF134230F400C05614 /* QuartzCore.framework */; };
+		D897B3481BDBE2F1006C60B0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EC70F7134B7B5600862B6D /* MessageUI.framework */; };
+		D897B3491BDBE2F1006C60B0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		D897B34A1BDBE2F1006C60B0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A799B13413941009639D8 /* ImageIO.framework */; };
+		D897B34C1BDBE3B4006C60B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 452E1F8F161203E600192ED2 /* README.md */; };
+		D897B34D1BDBE3B4006C60B0 /* HISTORY.md in Resources */ = {isa = PBXBuildFile; fileRef = 452E1F91161203EE00192ED2 /* HISTORY.md */; };
+		D897B34E1BDBE3B4006C60B0 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 452E1F92161203EE00192ED2 /* LICENSE.md */; };
+		D897B34F1BDBE3B4006C60B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45B9423513413C99005AE6DA /* Localizable.strings */; };
+		D897B3501BDBE3B4006C60B0 /* Reader.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 28193054112F811F00ECF9B4 /* Reader.xcdatamodeld */; };
+		D897B3511BDBE3B4006C60B0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4552C17413413EB00000C190 /* Settings.bundle */; };
+		D897B3521BDBE3B4006C60B0 /* help.css in Resources */ = {isa = PBXBuildFile; fileRef = 459D1AD9144CD72600EF4614 /* help.css */; };
+		D897B3531BDBE3B4006C60B0 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 45E2B4EE144CC68E00B497D0 /* help.html */; };
+		D897B3541BDBE3B4006C60B0 /* AppIcon-057.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6242F1444B09F006B6B11 /* AppIcon-057.png */; };
+		D897B3551BDBE3B4006C60B0 /* AppIcon-072.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624301444B09F006B6B11 /* AppIcon-072.png */; };
+		D897B3561BDBE3B4006C60B0 /* AppIcon-076.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D9DE8B17FDF0B300581962 /* AppIcon-076.png */; };
+		D897B3571BDBE3B4006C60B0 /* AppIcon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624311444B09F006B6B11 /* AppIcon-114.png */; };
+		D897B3581BDBE3B4006C60B0 /* AppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D9DE8C17FDF0B300581962 /* AppIcon-120.png */; };
+		D897B3591BDBE3B4006C60B0 /* AppIcon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 45449EB115153810009E47C2 /* AppIcon-144.png */; };
+		D897B35A1BDBE3B4006C60B0 /* AppIcon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D9DE8D17FDF0B300581962 /* AppIcon-152.png */; };
+		D897B35B1BDBE3B4006C60B0 /* AppIcon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 454719A519D8627B0059C4E5 /* AppIcon-180.png */; };
+		D897B35C1BDBE3B4006C60B0 /* AppIcon-PDF.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624321444B09F006B6B11 /* AppIcon-PDF.png */; };
+		D897B35D1BDBE3B4006C60B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 452E1F8C161203A200192ED2 /* Default-568h@2x.png */; };
+		D897B35E1BDBE3B4006C60B0 /* Default-0750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 459050D41A3224F100304C94 /* Default-0750x1334.png */; };
+		D897B35F1BDBE3B4006C60B0 /* Default-1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 459050D51A3224F100304C94 /* Default-1242x2208.png */; };
+		D897B3601BDBE3B4006C60B0 /* Default-1334x0750.png in Resources */ = {isa = PBXBuildFile; fileRef = 459050D61A3224F100304C94 /* Default-1334x0750.png */; };
+		D897B3611BDBE3B4006C60B0 /* Default-2208x1242.png in Resources */ = {isa = PBXBuildFile; fileRef = 459050D71A3224F100304C94 /* Default-2208x1242.png */; };
+		D897B3621BDBE3B4006C60B0 /* Folder-Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624331444B09F006B6B11 /* Folder-Large.png */; };
+		D897B3631BDBE3B4006C60B0 /* Folder-Large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624341444B09F006B6B11 /* Folder-Large@2x.png */; };
+		D897B3641BDBE3B4006C60B0 /* Folder-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624351444B09F006B6B11 /* Folder-Small.png */; };
+		D897B3651BDBE3B4006C60B0 /* Folder-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624361444B09F006B6B11 /* Folder-Small@2x.png */; };
+		D897B3661BDBE3B4006C60B0 /* Icon-Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624371444B09F006B6B11 /* Icon-Check.png */; };
+		D897B3671BDBE3B4006C60B0 /* Icon-Check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624381444B09F006B6B11 /* Icon-Check@2x.png */; };
+		D897B3681BDBE3B4006C60B0 /* Icon-Checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624391444B09F006B6B11 /* Icon-Checked.png */; };
+		D897B3691BDBE3B4006C60B0 /* Icon-Checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6243A1444B09F006B6B11 /* Icon-Checked@2x.png */; };
+		D897B36A1BDBE3B4006C60B0 /* Icon-Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6243B1444B09F006B6B11 /* Icon-Cross.png */; };
+		D897B36B1BDBE3B4006C60B0 /* Icon-Cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6243C1444B09F006B6B11 /* Icon-Cross@2x.png */; };
+		D897B36C1BDBE3B4006C60B0 /* Icon-Edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6243D1444B09F006B6B11 /* Icon-Edit.png */; };
+		D897B36D1BDBE3B4006C60B0 /* Icon-Edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6243E1444B09F006B6B11 /* Icon-Edit@2x.png */; };
+		D897B36E1BDBE3B4006C60B0 /* Icon-Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6243F1444B09F006B6B11 /* Icon-Folder.png */; };
+		D897B36F1BDBE3B4006C60B0 /* Icon-Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624401444B09F006B6B11 /* Icon-Folder@2x.png */; };
+		D897B3701BDBE3B4006C60B0 /* Icon-Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624411444B09F006B6B11 /* Icon-Minus.png */; };
+		D897B3711BDBE3B4006C60B0 /* Icon-Minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624421444B09F006B6B11 /* Icon-Minus@2x.png */; };
+		D897B3721BDBE3B4006C60B0 /* Icon-Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624431444B09F006B6B11 /* Icon-Plus.png */; };
+		D897B3731BDBE3B4006C60B0 /* Icon-Plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624441444B09F006B6B11 /* Icon-Plus@2x.png */; };
+		D897B3741BDBE3B4006C60B0 /* Reader-Button-H.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624451444B09F006B6B11 /* Reader-Button-H.png */; };
+		D897B3751BDBE3B4006C60B0 /* Reader-Button-H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624461444B09F006B6B11 /* Reader-Button-H@2x.png */; };
+		D897B3761BDBE3B4006C60B0 /* Reader-Button-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624471444B09F006B6B11 /* Reader-Button-N.png */; };
+		D897B3771BDBE3B4006C60B0 /* Reader-Button-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624481444B09F006B6B11 /* Reader-Button-N@2x.png */; };
+		D897B3781BDBE3B4006C60B0 /* Reader-Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624491444B09F006B6B11 /* Reader-Email.png */; };
+		D897B3791BDBE3B4006C60B0 /* Reader-Email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6244A1444B09F006B6B11 /* Reader-Email@2x.png */; };
+		D897B37A1BDBE3B4006C60B0 /* Reader-Mark-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6244B1444B09F006B6B11 /* Reader-Mark-N.png */; };
+		D897B37B1BDBE3B4006C60B0 /* Reader-Mark-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6244C1444B09F006B6B11 /* Reader-Mark-N@2x.png */; };
+		D897B37C1BDBE3B4006C60B0 /* Reader-Mark-Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6244D1444B09F006B6B11 /* Reader-Mark-Y.png */; };
+		D897B37D1BDBE3B4006C60B0 /* Reader-Mark-Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6244E1444B09F006B6B11 /* Reader-Mark-Y@2x.png */; };
+		D897B37E1BDBE3B4006C60B0 /* Reader-Print.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F6244F1444B09F006B6B11 /* Reader-Print.png */; };
+		D897B37F1BDBE3B4006C60B0 /* Reader-Print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624501444B09F006B6B11 /* Reader-Print@2x.png */; };
+		D897B3801BDBE3B4006C60B0 /* Reader-Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624511444B09F006B6B11 /* Reader-Thumbs.png */; };
+		D897B3811BDBE3B4006C60B0 /* Reader-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F624521444B09F006B6B11 /* Reader-Thumbs@2x.png */; };
+		D897B3821BDBE43B006C60B0 /* ViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ViewerAppDelegate.m */; };
+		D897B3831BDBE43B006C60B0 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451258FB142B8871009BCAF5 /* LibraryViewController.m */; };
+		D897B3841BDBE43B006C60B0 /* LibraryDirectoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451258F3142B8871009BCAF5 /* LibraryDirectoryView.m */; };
+		D897B3851BDBE43B006C60B0 /* LibraryDocumentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451258F7142B8871009BCAF5 /* LibraryDocumentsView.m */; };
+		D897B3861BDBE43B006C60B0 /* FoldersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451258EF142B8871009BCAF5 /* FoldersViewController.m */; };
+		D897B3871BDBE43B006C60B0 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E2B4E8144CB3A500B497D0 /* HelpViewController.m */; };
+		D897B3881BDBE445006C60B0 /* DocumentFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4521C5AC1360DCC300DD4856 /* DocumentFolder.m */; };
+		D897B3891BDBE445006C60B0 /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4521C5AE1360DCC300DD4856 /* ReaderDocument.m */; };
+		D897B38A1BDBE445006C60B0 /* DocumentsUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45125905142B88AF009BCAF5 /* DocumentsUpdate.m */; };
+		D897B38B1BDBE445006C60B0 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4567BADF1347751600311D51 /* CoreDataManager.m */; };
+		D897B38C1BDBE500006C60B0 /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D39FC142A580F00F15953 /* ReaderConstants.m */; };
+		D897B38D1BDBE500006C60B0 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A1A142A580F00F15953 /* ReaderViewController.m */; };
+		D897B38E1BDBE500006C60B0 /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A08142A580F00F15953 /* ReaderMainToolbar.m */; };
+		D897B38F1BDBE500006C60B0 /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A06142A580F00F15953 /* ReaderMainPagebar.m */; };
+		D897B3901BDBE500006C60B0 /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A02142A580F00F15953 /* ReaderContentView.m */; };
+		D897B3911BDBE500006C60B0 /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D39FE142A580F00F15953 /* ReaderContentPage.m */; };
+		D897B3921BDBE500006C60B0 /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A00142A580F00F15953 /* ReaderContentTile.m */; };
+		D897B3931BDBE500006C60B0 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A1E142A580F00F15953 /* ThumbsViewController.m */; };
+		D897B3941BDBE501006C60B0 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A1C142A580F00F15953 /* ThumbsMainToolbar.m */; };
+		D897B3951BDBE569006C60B0 /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 452825221434FF9F00744EB2 /* DirectoryWatcher.m */; };
+		D897B3961BDBE569006C60B0 /* UIXTextEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 45125907142B88AF009BCAF5 /* UIXTextEntry.m */; };
+		D897B3971BDBE569006C60B0 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D39FA142A580F00F15953 /* CGPDFDocument.m */; };
+		D897B3981BDBE569006C60B0 /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 45550E4E1612086C003F2FAA /* ReaderDocumentOutline.m */; };
+		D897B3991BDBE569006C60B0 /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A0C142A580F00F15953 /* ReaderThumbCache.m */; };
+		D897B39A1BDBE569006C60B0 /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A14142A580F00F15953 /* ReaderThumbRequest.m */; };
+		D897B39B1BDBE569006C60B0 /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A10142A580F00F15953 /* ReaderThumbQueue.m */; };
+		D897B39C1BDBE569006C60B0 /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A0E142A580F00F15953 /* ReaderThumbFetch.m */; };
+		D897B39D1BDBE569006C60B0 /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A12142A580F00F15953 /* ReaderThumbRender.m */; };
+		D897B39E1BDBE569006C60B0 /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A16142A580F00F15953 /* ReaderThumbsView.m */; };
+		D897B39F1BDBE569006C60B0 /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A18142A580F00F15953 /* ReaderThumbView.m */; };
+		D897B3A01BDBE569006C60B0 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 458D3A20142A580F00F15953 /* UIXToolbarView.m */; };
+		D897B3A11BDBE569006C60B0 /* Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28193054112F811F00ECF9B4 /* Reader.xcdatamodeld */; };
+		D897B3A21BDBE791006C60B0 /* ViewerAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3623240D0F684500981E51 /* ViewerAppDelegate.h */; };
+		D897B3A31BDBE791006C60B0 /* LibraryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258FA142B8871009BCAF5 /* LibraryViewController.h */; };
+		D897B3A41BDBE791006C60B0 /* LibraryDirectoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258F2142B8871009BCAF5 /* LibraryDirectoryView.h */; };
+		D897B3A51BDBE791006C60B0 /* LibraryDocumentsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258F6142B8871009BCAF5 /* LibraryDocumentsView.h */; };
+		D897B3A61BDBE791006C60B0 /* FoldersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 451258EE142B8871009BCAF5 /* FoldersViewController.h */; };
+		D897B3A71BDBE791006C60B0 /* HelpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E2B4E7144CB3A500B497D0 /* HelpViewController.h */; };
+		D897B3A81BDBE791006C60B0 /* DocumentFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4521C5AB1360DCC300DD4856 /* DocumentFolder.h */; };
+		D897B3A91BDBE791006C60B0 /* ReaderDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 4521C5AD1360DCC300DD4856 /* ReaderDocument.h */; };
+		D897B3AA1BDBE791006C60B0 /* DocumentsUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45125904142B88AF009BCAF5 /* DocumentsUpdate.h */; };
+		D897B3AB1BDBE791006C60B0 /* CoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4567BADE1347751600311D51 /* CoreDataManager.h */; };
+		D897B3AC1BDBE791006C60B0 /* DirectoryWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 452825211434FF9F00744EB2 /* DirectoryWatcher.h */; };
+		D897B3AD1BDBE791006C60B0 /* UIXTextEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45125906142B88AF009BCAF5 /* UIXTextEntry.h */; };
+		D897B3AE1BDBE791006C60B0 /* ReaderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FB142A580F00F15953 /* ReaderConstants.h */; };
+		D897B3AF1BDBE791006C60B0 /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A19142A580F00F15953 /* ReaderViewController.h */; };
+		D897B3B01BDBE791006C60B0 /* ReaderMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A07142A580F00F15953 /* ReaderMainToolbar.h */; };
+		D897B3B11BDBE791006C60B0 /* ReaderMainPagebar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A05142A580F00F15953 /* ReaderMainPagebar.h */; };
+		D897B3B21BDBE791006C60B0 /* ReaderContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A01142A580F00F15953 /* ReaderContentView.h */; };
+		D897B3B31BDBE791006C60B0 /* ReaderContentPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FD142A580F00F15953 /* ReaderContentPage.h */; };
+		D897B3B41BDBE791006C60B0 /* ReaderContentTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39FF142A580F00F15953 /* ReaderContentTile.h */; };
+		D897B3B51BDBE791006C60B0 /* ThumbsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1D142A580F00F15953 /* ThumbsViewController.h */; };
+		D897B3B61BDBE791006C60B0 /* ThumbsMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1B142A580F00F15953 /* ThumbsMainToolbar.h */; };
+		D897B3B71BDBE791006C60B0 /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D39F9142A580F00F15953 /* CGPDFDocument.h */; };
+		D897B3B81BDBE791006C60B0 /* ReaderDocumentOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 45550E4D1612086C003F2FAA /* ReaderDocumentOutline.h */; };
+		D897B3B91BDBE791006C60B0 /* ReaderThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0B142A580F00F15953 /* ReaderThumbCache.h */; };
+		D897B3BA1BDBE791006C60B0 /* ReaderThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A13142A580F00F15953 /* ReaderThumbRequest.h */; };
+		D897B3BB1BDBE791006C60B0 /* ReaderThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0F142A580F00F15953 /* ReaderThumbQueue.h */; };
+		D897B3BC1BDBE791006C60B0 /* ReaderThumbFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A0D142A580F00F15953 /* ReaderThumbFetch.h */; };
+		D897B3BD1BDBE792006C60B0 /* ReaderThumbRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A11142A580F00F15953 /* ReaderThumbRender.h */; };
+		D897B3BE1BDBE792006C60B0 /* ReaderThumbsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A15142A580F00F15953 /* ReaderThumbsView.h */; };
+		D897B3BF1BDBE792006C60B0 /* ReaderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A17142A580F00F15953 /* ReaderThumbView.h */; };
+		D897B3C01BDBE792006C60B0 /* UIXToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 458D3A1F142A580F00F15953 /* UIXToolbarView.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D897B2B51BDBD889006C60B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D897B2AF1BDBD889006C60B0;
-			remoteInfo = ViewerFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D897B2BD1BDBD889006C60B0 /* Embed Frameworks */ = {
@@ -284,6 +398,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D897B3441BDBE2F1006C60B0 /* UIKit.framework in Frameworks */,
+				D897B3451BDBE2F1006C60B0 /* Foundation.framework in Frameworks */,
+				D897B3461BDBE2F1006C60B0 /* CoreGraphics.framework in Frameworks */,
+				D897B3471BDBE2F1006C60B0 /* QuartzCore.framework in Frameworks */,
+				D897B3481BDBE2F1006C60B0 /* MessageUI.framework in Frameworks */,
+				D897B3491BDBE2F1006C60B0 /* CoreData.framework in Frameworks */,
+				D897B34A1BDBE2F1006C60B0 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +678,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				D897B2B31BDBD889006C60B0 /* ViewerFramework.h in Headers */,
+				D897B3A21BDBE791006C60B0 /* ViewerAppDelegate.h in Headers */,
+				D897B3A31BDBE791006C60B0 /* LibraryViewController.h in Headers */,
+				D897B3A41BDBE791006C60B0 /* LibraryDirectoryView.h in Headers */,
+				D897B3A51BDBE791006C60B0 /* LibraryDocumentsView.h in Headers */,
+				D897B3A61BDBE791006C60B0 /* FoldersViewController.h in Headers */,
+				D897B3A71BDBE791006C60B0 /* HelpViewController.h in Headers */,
+				D897B3A81BDBE791006C60B0 /* DocumentFolder.h in Headers */,
+				D897B3A91BDBE791006C60B0 /* ReaderDocument.h in Headers */,
+				D897B3AA1BDBE791006C60B0 /* DocumentsUpdate.h in Headers */,
+				D897B3AB1BDBE791006C60B0 /* CoreDataManager.h in Headers */,
+				D897B3AC1BDBE791006C60B0 /* DirectoryWatcher.h in Headers */,
+				D897B3AD1BDBE791006C60B0 /* UIXTextEntry.h in Headers */,
+				D897B3AE1BDBE791006C60B0 /* ReaderConstants.h in Headers */,
+				D897B3AF1BDBE791006C60B0 /* ReaderViewController.h in Headers */,
+				D897B3B01BDBE791006C60B0 /* ReaderMainToolbar.h in Headers */,
+				D897B3B11BDBE791006C60B0 /* ReaderMainPagebar.h in Headers */,
+				D897B3B21BDBE791006C60B0 /* ReaderContentView.h in Headers */,
+				D897B3B31BDBE791006C60B0 /* ReaderContentPage.h in Headers */,
+				D897B3B41BDBE791006C60B0 /* ReaderContentTile.h in Headers */,
+				D897B3B51BDBE791006C60B0 /* ThumbsViewController.h in Headers */,
+				D897B3B61BDBE791006C60B0 /* ThumbsMainToolbar.h in Headers */,
+				D897B3B71BDBE791006C60B0 /* CGPDFDocument.h in Headers */,
+				D897B3B81BDBE791006C60B0 /* ReaderDocumentOutline.h in Headers */,
+				D897B3B91BDBE791006C60B0 /* ReaderThumbCache.h in Headers */,
+				D897B3BA1BDBE791006C60B0 /* ReaderThumbRequest.h in Headers */,
+				D897B3BB1BDBE791006C60B0 /* ReaderThumbQueue.h in Headers */,
+				D897B3BC1BDBE791006C60B0 /* ReaderThumbFetch.h in Headers */,
+				D897B3BD1BDBE792006C60B0 /* ReaderThumbRender.h in Headers */,
+				D897B3BE1BDBE792006C60B0 /* ReaderThumbsView.h in Headers */,
+				D897B3BF1BDBE792006C60B0 /* ReaderThumbView.h in Headers */,
+				D897B3C01BDBE792006C60B0 /* UIXToolbarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +727,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D897B2B61BDBD889006C60B0 /* PBXTargetDependency */,
 			);
 			name = Viewer;
 			productName = Viewer;
@@ -699,6 +850,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D897B34C1BDBE3B4006C60B0 /* README.md in Resources */,
+				D897B34D1BDBE3B4006C60B0 /* HISTORY.md in Resources */,
+				D897B34E1BDBE3B4006C60B0 /* LICENSE.md in Resources */,
+				D897B34F1BDBE3B4006C60B0 /* Localizable.strings in Resources */,
+				D897B3501BDBE3B4006C60B0 /* Reader.xcdatamodeld in Resources */,
+				D897B3511BDBE3B4006C60B0 /* Settings.bundle in Resources */,
+				D897B3521BDBE3B4006C60B0 /* help.css in Resources */,
+				D897B3531BDBE3B4006C60B0 /* help.html in Resources */,
+				D897B3541BDBE3B4006C60B0 /* AppIcon-057.png in Resources */,
+				D897B3551BDBE3B4006C60B0 /* AppIcon-072.png in Resources */,
+				D897B3561BDBE3B4006C60B0 /* AppIcon-076.png in Resources */,
+				D897B3571BDBE3B4006C60B0 /* AppIcon-114.png in Resources */,
+				D897B3581BDBE3B4006C60B0 /* AppIcon-120.png in Resources */,
+				D897B3591BDBE3B4006C60B0 /* AppIcon-144.png in Resources */,
+				D897B35A1BDBE3B4006C60B0 /* AppIcon-152.png in Resources */,
+				D897B35B1BDBE3B4006C60B0 /* AppIcon-180.png in Resources */,
+				D897B35C1BDBE3B4006C60B0 /* AppIcon-PDF.png in Resources */,
+				D897B35D1BDBE3B4006C60B0 /* Default-568h@2x.png in Resources */,
+				D897B35E1BDBE3B4006C60B0 /* Default-0750x1334.png in Resources */,
+				D897B35F1BDBE3B4006C60B0 /* Default-1242x2208.png in Resources */,
+				D897B3601BDBE3B4006C60B0 /* Default-1334x0750.png in Resources */,
+				D897B3611BDBE3B4006C60B0 /* Default-2208x1242.png in Resources */,
+				D897B3621BDBE3B4006C60B0 /* Folder-Large.png in Resources */,
+				D897B3631BDBE3B4006C60B0 /* Folder-Large@2x.png in Resources */,
+				D897B3641BDBE3B4006C60B0 /* Folder-Small.png in Resources */,
+				D897B3651BDBE3B4006C60B0 /* Folder-Small@2x.png in Resources */,
+				D897B3661BDBE3B4006C60B0 /* Icon-Check.png in Resources */,
+				D897B3671BDBE3B4006C60B0 /* Icon-Check@2x.png in Resources */,
+				D897B3681BDBE3B4006C60B0 /* Icon-Checked.png in Resources */,
+				D897B3691BDBE3B4006C60B0 /* Icon-Checked@2x.png in Resources */,
+				D897B36A1BDBE3B4006C60B0 /* Icon-Cross.png in Resources */,
+				D897B36B1BDBE3B4006C60B0 /* Icon-Cross@2x.png in Resources */,
+				D897B36C1BDBE3B4006C60B0 /* Icon-Edit.png in Resources */,
+				D897B36D1BDBE3B4006C60B0 /* Icon-Edit@2x.png in Resources */,
+				D897B36E1BDBE3B4006C60B0 /* Icon-Folder.png in Resources */,
+				D897B36F1BDBE3B4006C60B0 /* Icon-Folder@2x.png in Resources */,
+				D897B3701BDBE3B4006C60B0 /* Icon-Minus.png in Resources */,
+				D897B3711BDBE3B4006C60B0 /* Icon-Minus@2x.png in Resources */,
+				D897B3721BDBE3B4006C60B0 /* Icon-Plus.png in Resources */,
+				D897B3731BDBE3B4006C60B0 /* Icon-Plus@2x.png in Resources */,
+				D897B3741BDBE3B4006C60B0 /* Reader-Button-H.png in Resources */,
+				D897B3751BDBE3B4006C60B0 /* Reader-Button-H@2x.png in Resources */,
+				D897B3761BDBE3B4006C60B0 /* Reader-Button-N.png in Resources */,
+				D897B3771BDBE3B4006C60B0 /* Reader-Button-N@2x.png in Resources */,
+				D897B3781BDBE3B4006C60B0 /* Reader-Email.png in Resources */,
+				D897B3791BDBE3B4006C60B0 /* Reader-Email@2x.png in Resources */,
+				D897B37A1BDBE3B4006C60B0 /* Reader-Mark-N.png in Resources */,
+				D897B37B1BDBE3B4006C60B0 /* Reader-Mark-N@2x.png in Resources */,
+				D897B37C1BDBE3B4006C60B0 /* Reader-Mark-Y.png in Resources */,
+				D897B37D1BDBE3B4006C60B0 /* Reader-Mark-Y@2x.png in Resources */,
+				D897B37E1BDBE3B4006C60B0 /* Reader-Print.png in Resources */,
+				D897B37F1BDBE3B4006C60B0 /* Reader-Print@2x.png in Resources */,
+				D897B3801BDBE3B4006C60B0 /* Reader-Thumbs.png in Resources */,
+				D897B3811BDBE3B4006C60B0 /* Reader-Thumbs@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,18 +954,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D897B3951BDBE569006C60B0 /* DirectoryWatcher.m in Sources */,
+				D897B3961BDBE569006C60B0 /* UIXTextEntry.m in Sources */,
+				D897B3971BDBE569006C60B0 /* CGPDFDocument.m in Sources */,
+				D897B3981BDBE569006C60B0 /* ReaderDocumentOutline.m in Sources */,
+				D897B3991BDBE569006C60B0 /* ReaderThumbCache.m in Sources */,
+				D897B39A1BDBE569006C60B0 /* ReaderThumbRequest.m in Sources */,
+				D897B39B1BDBE569006C60B0 /* ReaderThumbQueue.m in Sources */,
+				D897B39C1BDBE569006C60B0 /* ReaderThumbFetch.m in Sources */,
+				D897B39D1BDBE569006C60B0 /* ReaderThumbRender.m in Sources */,
+				D897B39E1BDBE569006C60B0 /* ReaderThumbsView.m in Sources */,
+				D897B39F1BDBE569006C60B0 /* ReaderThumbView.m in Sources */,
+				D897B3A01BDBE569006C60B0 /* UIXToolbarView.m in Sources */,
+				D897B3A11BDBE569006C60B0 /* Reader.xcdatamodeld in Sources */,
+				D897B38C1BDBE500006C60B0 /* ReaderConstants.m in Sources */,
+				D897B38D1BDBE500006C60B0 /* ReaderViewController.m in Sources */,
+				D897B38E1BDBE500006C60B0 /* ReaderMainToolbar.m in Sources */,
+				D897B38F1BDBE500006C60B0 /* ReaderMainPagebar.m in Sources */,
+				D897B3901BDBE500006C60B0 /* ReaderContentView.m in Sources */,
+				D897B3911BDBE500006C60B0 /* ReaderContentPage.m in Sources */,
+				D897B3921BDBE500006C60B0 /* ReaderContentTile.m in Sources */,
+				D897B3931BDBE500006C60B0 /* ThumbsViewController.m in Sources */,
+				D897B3941BDBE501006C60B0 /* ThumbsMainToolbar.m in Sources */,
+				D897B3881BDBE445006C60B0 /* DocumentFolder.m in Sources */,
+				D897B3891BDBE445006C60B0 /* ReaderDocument.m in Sources */,
+				D897B38A1BDBE445006C60B0 /* DocumentsUpdate.m in Sources */,
+				D897B38B1BDBE445006C60B0 /* CoreDataManager.m in Sources */,
+				D897B3821BDBE43B006C60B0 /* ViewerAppDelegate.m in Sources */,
+				D897B3831BDBE43B006C60B0 /* LibraryViewController.m in Sources */,
+				D897B3841BDBE43B006C60B0 /* LibraryDirectoryView.m in Sources */,
+				D897B3851BDBE43B006C60B0 /* LibraryDocumentsView.m in Sources */,
+				D897B3861BDBE43B006C60B0 /* FoldersViewController.m in Sources */,
+				D897B3871BDBE43B006C60B0 /* HelpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D897B2B61BDBD889006C60B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D897B2AF1BDBD889006C60B0 /* ViewerFramework */;
-			targetProxy = D897B2B51BDBD889006C60B0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		459D1AD9144CD72600EF4614 /* help.css */ = {
@@ -1077,6 +1306,7 @@
 				D897B2BB1BDBD889006C60B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
